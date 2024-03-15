@@ -5,7 +5,7 @@ A linguagem que eu resolvi utilizar para a resolução dos desafios foi python, 
 - [Primeira Questao](#primeira-questão)
 - [Segunda Questao](#segunda-questão)
 - [Terceira Questao](#terceira-questão)
-- Quarta Questao
+- [Quarta Questao](#quarta-questão)
 - Quinta Questao
 
 #### Primeira Questão
@@ -35,3 +35,15 @@ b) 2, 4, 8, 16, 32, 64, _ **R: 128** (Cada termo é o dobro do de antes)
 c) 0, 1, 4, 9, 16, 25, 36, _ **R: 49** (Cada termo é o quadrado do número natural, no caso da letra C seria o quadrado de 7)
 d) 1, 1, 2, 3, 5, 8, _ **R: 13** (Famosa sequência de fibonacci ou soma dos 2 termos antecedentes hehe)
 e) 2, 10, 12, 16, 17, 18, 19, _ **R: 20** (Dividindo a sequência em duas partes, em que a primeira inicialmente se pudéssemos declarar o primeiro termo como 0 incrementa dessa forma: +2, +8, +2, +4. A segunda parte apenas incremente de 1 em 1).
+
+#### Quarta Questão
+
+Antes vou nomear os 3 interruptores pra vocês entenderem melhor meu raciocínio. Eles vão ser (stephen-king, allan-poe e bram-stoker)
+
+Pra resolver esse problema, eu primeiramente ligaria o `stephen-king`, e o deixaria ligado por alguns minutos. Logo após, eu desligaria ele e ligaria o `allan-poe`. Assim já conseguia inferir quais estariam responsabilizados por quais salas.
+
+- A sala da lâmpada que tá acesa é controlada pelo `allan-poe`
+- A sala da lâmpada que tá apagada e ainda quente é controlada pelo `stephen-kinhg`.
+- A lâmpada que tá apagada e fria é controlada pelo `bram-stoker`
+
+Por pura curiosidade, está na ordem dos meus escritores favoritos. hehe!
