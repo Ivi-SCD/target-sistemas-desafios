@@ -8,6 +8,8 @@ A linguagem que eu resolvi utilizar para a resolução dos desafios foi python, 
 - [Quarta Questao](#quarta-questão)
 - [Quinta Questao](#quinta-questão)
 
+#
+
 #### Primeira Questão
 
 A resolução foi uma lógica bem simples, basicamente segui o algoritmo dada na questão apenas para obter a resposta.
@@ -15,6 +17,8 @@ A resolução foi uma lógica bem simples, basicamente segui o algoritmo dada na
 Arquivo Python: [**Script**](./01-questao/main.py)
 
 R: 91.
+
+#
 
 #### Segunda Questão
 
@@ -26,6 +30,8 @@ Resolvi por criar duas funções, uma para gerar a sequência de fibonacci utili
 
 Arquivo Python: [**Script**](./02-questao/main.py)
 
+#
+
 #### Terceira Questão
 
 Para a terceira questão, como acredito que a proposta seja mais respostas lógicas, não fiz nenhum script para resolver elas, porém essas foram as minhas respostas:
@@ -35,6 +41,8 @@ b) 2, 4, 8, 16, 32, 64, _ **R: 128** (Cada termo é o dobro do de antes)
 c) 0, 1, 4, 9, 16, 25, 36, _ **R: 49** (Cada termo é o quadrado do número natural, no caso da letra C seria o quadrado de 7)
 d) 1, 1, 2, 3, 5, 8, _ **R: 13** (Famosa sequência de fibonacci ou soma dos 2 termos antecedentes hehe)
 e) 2, 10, 12, 16, 17, 18, 19, _ **R: 20** (Dividindo a sequência em duas partes, em que a primeira inicialmente se pudéssemos declarar o primeiro termo como 0 incrementa dessa forma: +2, +8, +2, +4. A segunda parte apenas incremente de 1 em 1).
+
+#
 
 #### Quarta Questão
 
@@ -47,6 +55,8 @@ Pra resolver esse problema, eu primeiramente ligaria o `stephen-king`, e o deixa
 - A lâmpada que tá apagada e fria é controlada pelo `bram-stoker`
 
 Por pura curiosidade, está na ordem dos meus escritores favoritos. hehe!
+
+#
 
 #### Quinta Questão
 
