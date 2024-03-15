@@ -6,7 +6,7 @@ A linguagem que eu resolvi utilizar para a resolução dos desafios foi python, 
 - [Segunda Questao](#segunda-questão)
 - [Terceira Questao](#terceira-questão)
 - [Quarta Questao](#quarta-questão)
-- Quinta Questao
+- [Quinta Questao](#quinta-questão)
 
 #### Primeira Questão
 
@@ -38,7 +38,7 @@ e) 2, 10, 12, 16, 17, 18, 19, _ **R: 20** (Dividindo a sequência em duas partes
 
 #### Quarta Questão
 
-Antes vou nomear os 3 interruptores pra vocês entenderem melhor meu raciocínio. Eles vão ser (stephen-king, allan-poe e bram-stoker)
+Antes de começar a quarta questão, vou nomear os 3 interruptores pra vocês entenderem melhor meu raciocínio. Eles vão ser (stephen-king, allan-poe e bram-stoker)
 
 Pra resolver esse problema, eu primeiramente ligaria o `stephen-king`, e o deixaria ligado por alguns minutos. Logo após, eu desligaria ele e ligaria o `allan-poe`. Assim já conseguia inferir quais estariam responsabilizados por quais salas.
 
@@ -47,3 +47,11 @@ Pra resolver esse problema, eu primeiramente ligaria o `stephen-king`, e o deixa
 - A lâmpada que tá apagada e fria é controlada pelo `bram-stoker`
 
 Por pura curiosidade, está na ordem dos meus escritores favoritos. hehe!
+
+#### Quinta Questão
+
+Pra resolver a última questão como foi pedido para não utilizar funções prontas como reverse, considerei a funcionalidade do python de reverter strings a partir do slicing como função também e não utilzei, caso vocês aprovem o uso do slicing a função dita no script retornaria apenas ``texto_invertido[::-1]`. Mas, considerei isso como função facilitadora então apliquei a seguinte lógica:
+
+Construi um for que inicializa o `i` com o índice do último caractere da string original. Depois disso defini a condição de parada (`i >= 0`), pra percorrer a string até o primeiro caractere. Além disso, o incremento de `i` é feito decrementando 1 a cada iteração. Por fim, dentro do loop, a cada iteração, o caractere na posição i da string original é adicionado à string invertida.
+
+Arquivo python: [**Script**](./05-questao/main.py)
